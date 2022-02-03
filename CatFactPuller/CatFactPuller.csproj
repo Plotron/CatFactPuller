@@ -10,6 +10,13 @@
   <ItemGroup>
     <PackageReference Include="RestSharp" Version="107.2.0" />
     <PackageReference Include="SimpleInjector" Version="5.3.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

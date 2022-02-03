@@ -1,4 +1,4 @@
-﻿namespace CatFactPuller;
+﻿namespace CatFactPuller.Logic;
 
 public interface ICatFactService
 {
